@@ -29,4 +29,4 @@ should be the minimum length of the boundary of the connected components that wi
 
 When you change death_threshold, please make sure you also change BDsizethreshold accordingly. (When we want to detect smaller figures, we can decrease death_threshold. However, if we forget to make BDsizethreshold smaller, the small figure of interest might not get into PH calculation.)
 ### death_upper_threshold
-should be the maximum internal radius of the figures to be detected. This parameter is meant to reduce the non-existing figures formed by multiple different boundaries. There are several ways to get out of this problem (e.g. using different filtrations) other than this parameter.
+should be the maximum internal radius of the figures to be detected. This parameter is meant to reduce the non-existing figures formed by multiple different boundaries. There are several ways to get out of this problem (e.g. using different filtrations) other than this parameter. If you do not need this part, please set the value sufficiently large.
